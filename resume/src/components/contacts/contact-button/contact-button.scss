@@ -1,0 +1,14 @@
+.button-ref {
+    display: block;
+    & svg {
+        .main {
+            fill: #a4a5a6;
+        }
+    }
+    & svg:hover {
+        .main {
+            fill: #e0a80d;
+        }
+    }
+
+}

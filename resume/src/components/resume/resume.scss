@@ -1,0 +1,30 @@
+* {
+    color: #a4a5a6;
+}
+
+.resume {
+    position: absolute;
+    z-index: 5;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+a {
+    color:green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    margin: 1vw auto;    
+}
+
+article {
+    width: 70%;
+    padding: 3%;
+    line-height: 1.3;
+}

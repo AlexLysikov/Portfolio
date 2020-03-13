@@ -1,0 +1,22 @@
+.menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    width: 12vw;
+    height: 8vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    &__ref {
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 4px rgba(46, 62, 77, 0.74);
+        &:hover {
+            color: #e0a80d;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+    }
+}

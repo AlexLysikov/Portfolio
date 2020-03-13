@@ -1,0 +1,53 @@
+@keyframes load{
+    from {
+        width: 0%
+    }
+}
+@font-face {
+    font-family: "Black Ops One";
+    src: url("https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap&subset=latin-ext");
+}
+
+.scill {
+    width: 75%;
+    &__name{
+        font-size: larger;
+        font-family: 'Black Ops One', cursive;
+    }
+    &__bar{
+        background-color: rgb(143, 143, 143);
+        padding: 2px;
+        border-radius: 15px;
+        margin-bottom: 5px;
+        color: #654321;
+        font-weight: bold;
+        &:before{
+            content:  attr(data-skill);
+            text-transform: uppercase;
+            background-color: #e0a80d;
+            display: inline-block;
+            padding: 5px 0 5px 10px;
+            border-radius: inherit;
+            animation: load 2s 0s;
+        }
+        &.elementary::before{
+            width: calc(20% - 10px);
+        }
+        &.basic::before{
+            width: calc(40% - 10px);
+        }
+        &.intermediate::before{
+            width: calc(60% - 10px);
+        }
+        &.advanced::before{
+            width: calc(80% - 10px);
+        }
+        &.expert::before{
+            width: calc(100% - 10px);
+        }
+    }
+    &__result{
+        text-decoration: none;
+    }
+}
+  

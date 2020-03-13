@@ -1,0 +1,12 @@
+{
+    "hrefs": {
+        "github": "https://github.com/AlexLysikov",
+        "facebook": "https://www.facebook.com/profile.php?id=100028113164170",
+        "linkedin": "https://www.linkedin.com/in/alex-lysikov/"
+    },
+    "icons": {
+        "github": "../../images/social-icons/github.svg",
+        "facebook": "../../images/social-icons/facebook.svg",
+        "linkedin": "../../images/social-icons/linkedin.svg"
+    }
+}
