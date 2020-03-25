@@ -1,20 +1,29 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import Background from './components/background/background';
-import Menu from './components/menu/menu';
 import Home from './components/home/home';
+import Menu from './components/menu/menu';
 
 export default class App extends Component {
+  
   state = {
-    rederedPage: {
+    rederedPage: { 
       home: true,
       about: false,
       portfolio: false,
       resume: false,
       contacts: false,
-    }
+    },
   };
+
+  onRender(Item, stateStatus) {
+    if (stateStatus) return <Item/>;
+  }
+
   render() {
+
+    const { renderedPage, menuStatus } = this.state;
+
     return (
         <div className="App">
             <Background />
@@ -24,8 +33,6 @@ export default class App extends Component {
           <main className="main">
             <Home />
           </main>
-          <footer className="main">
-          </footer>
         </div>
       );
   };

@@ -1,22 +1,85 @@
-.menu-button {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    position: absolute;
-    width: 12vw;
-    height: 8vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    &__ref {
+@keyframes Background-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .menu-button{
+        display: flex;
+        width: 170px;
+        height: 150px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
         color: #ffffff;
-        text-decoration: none;
-        text-transform: uppercase;
-        text-shadow: 2px 2px 4px rgba(46, 62, 77, 0.74);
+        &__img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            &-front{
+                position: absolute;
+                z-index: 2;
+                width: 100px;
+                height: 100px;
+            }
+            &-back{
+                visibility: hidden;
+                position: absolute;
+                z-index: 1;
+                width: 50px;
+                height: 50px;
+            }
+        }
         &:hover {
             color: #e0a80d;
+            .menu-button__img-back{
+                visibility: visible;
+                animation: Background-spin infinite 10s linear;
+            }
+        }
+        &__name{
+            display: block;
             font-size: 1.2rem;
             font-weight: 500;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(46, 62, 77, 0.74);
         }
     }
 }
+@media screen and (max-width: 767px) {
+
+    .menu-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: #ffffff;
+        &__img{
+            display: block;
+            position: relative;
+            width: 40px;
+            height: 40px;
+            &-back{
+                display: none;
+            }
+        }
+        &__name {
+            margin-left: 10px;
+            font-size: 1rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(46, 62, 77, 0.74);
+        }
+        &:hover{
+            color: #e0a80d;
+        }
+    }
+}
+

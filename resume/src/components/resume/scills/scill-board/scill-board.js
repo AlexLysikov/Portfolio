@@ -5,20 +5,24 @@ import './scills.scss';
 
 
 export default class Scills extends Component {
+    
     state = scills;
     
     render() {
         return (
-            <div className="scills-board">
+            <section className="scills-board">
 
-                <h2>My scills</h2>
+                <h2 className="scills-board__name">My scills</h2>
 
-                <section className="scills-board__group-of-scills">
-                    <h3>Technical scills:</h3>
-
-                <ScillRank 
-                    scillName={} />
-
+                <section className="group-of-scills">
+                    <h3 className="group-of-scills__name">Technical scills:</h3>
+                    <div className="group-of-scills__content">
+                        {this.state.technical.forEach(() => {
+                            <ScillRank 
+                                scillName={scillName} 
+                                skillLevel={scllLevel} />
+                        })}
+                    </div>
                 </section>
 
                 <section className="scills-board__group-of-scills">
@@ -29,7 +33,7 @@ export default class Scills extends Component {
 
                 </section>
 
-            </div>
+            </section>
         );
     };
 };

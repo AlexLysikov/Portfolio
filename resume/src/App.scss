@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.main {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+
+}
 /* .App-header {
   background-color: #282c34;
   min-height: 100vh;

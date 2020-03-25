@@ -1,20 +1,20 @@
 import React from 'react';
 import './menu-button.scss';
+import back from '../../../images/black-hole.svg'
 
-function MenuButton(props) {
+export default function MenuButton(props) {
     return (
         <div 
             className="menu-button" 
-            style={{
-                top: `${props.fromTop}`, 
-                left: `${props.fromLeft}`,
-                backgroundImage: `url(${props.imgPlace})`
-                }}>
-            <a className="menu-button__ref" href={props.url} >
+            // onclick={ location.href = props.url } 
+            >
+            <div className="menu-button__img">
+                <img className="menu-button__img-front" src={props.icon} alt="" />
+                <img className="menu-button__img-back" src={back} alt="" />
+            </div>
+            <span className="menu-button__name" >
                 {props.name}
-            </a>
+            </span>
         </div>
     );
 };
-
-export default MenuButton;

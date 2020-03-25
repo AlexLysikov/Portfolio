@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<style type="text/css">
+	@keyframes change_fill {
+		0% { fill: #ccffff; }
+		50% { fill: #003333; }
+		100% { fill: #ccffff; }
+	}
+	.st0{fill:#a4a5a6;}
+	.a{
+		animation: change_fill 7s infinite;
+	}
+	.b{
+		animation: change_fill 6s infinite;
+	}
+	.c{
+		animation: change_fill 8s infinite;
+	}
+	.d{
+		animation: change_fill 10s infinite;
+	}
+	.e{
+		animation: change_fill 8s infinite;
+	}
+	.f{
+		animation: change_fill 11s infinite;
+	}
+	.g{
+		animation: change_fill 7s infinite;
+	}
+	.h{
+		animation: change_fill 10s infinite;
+	}
+	.i{
+		animation: change_fill 12s infinite;
+	}
+	.j{
+		animation: change_fill 7s infinite;
+	}
+</style>
+<polygon class="st0 a" points="5.2,3.1 5.9,1.9 5.7,3.3 7,2.9 6,3.8 7.3,4.4 5.9,4.5 6.5,5.8 5.5,4.9 5.2,6.3 4.9,4.9 3.8,5.8 
+	4.4,4.5 3.1,4.4 4.3,3.8 3.3,2.9 4.6,3.3 4.4,1.9 "/>
+<polygon class="st0 b" points="35.2,3.1 36,1.9 35.8,3.3 37.1,2.9 36.1,3.8 37.4,4.4 36,4.5 36.6,5.8 35.5,4.9 35.2,6.3 35,4.9 
+	33.9,5.8 34.5,4.5 33.1,4.4 34.4,3.8 33.4,2.9 34.7,3.3 34.5,1.9 "/>
+<polygon class="st0 c" points="35.2,34.2 36,33 35.8,34.4 37.1,34 36.1,35 37.4,35.5 36,35.6 36.6,36.9 35.5,36 35.2,37.4 35,36 
+	33.9,36.9 34.5,35.6 33.1,35.5 34.4,35 33.4,34 34.7,34.4 34.5,33 "/>
+<polygon class="st0 d" points="5.2,34.2 5.9,33 5.7,34.4 7,34 6,35 7.3,35.5 5.9,35.6 6.5,36.9 5.5,36 5.2,37.4 4.9,36 3.8,36.9 
+	4.4,35.6 3.1,35.5 4.3,35 3.3,34 4.6,34.4 4.4,33 "/>
+<polygon class="st0 e " points="10.5,11 11.3,9.8 11.1,11.3 12.4,10.8 11.4,11.8 12.7,12.3 11.3,12.4 11.9,13.7 10.8,12.8 10.5,14.2 
+	10.3,12.8 9.2,13.7 9.8,12.4 8.4,12.3 9.7,11.8 8.7,10.8 10,11.3 9.8,9.8 "/>
+<polygon class="st0 f" points="29.5,11 30.2,9.8 30.1,11.3 31.4,10.8 30.4,11.8 31.6,12.3 30.3,12.4 30.9,13.7 29.8,12.8 29.5,14.2 
+	29.2,12.8 28.1,13.7 28.8,12.4 27.4,12.3 28.7,11.8 27.7,10.8 29,11.3 28.8,9.8 "/>
+<rect x="4.9" y="7.2" class="st0" width="0.5" height="25.2"/>
+<rect x="35" y="7.2" class="st0" width="0.5" height="25.2"/>
+<rect x="19.8" y="-8.5" transform="matrix(3.929485e-11 -1 1 3.929485e-11 15.9596 24.099)" class="st0" width="0.5" height="25.2"/>
+<rect x="20.3" y="22.6" transform="matrix(3.929485e-11 -1 1 3.929485e-11 -14.6899 55.7329)" class="st0" width="0.5" height="25.2"/>
+<rect x="19.8" y="5.7" transform="matrix(1.000095e-11 -1 1 1.000095e-11 8.0919 32.0485)" class="st0" width="0.5" height="12.5"/>
+<polygon class="st0 g" points="10.7,18.3 11.5,17.1 11.3,18.5 12.6,18.1 11.6,19.1 12.8,19.6 11.5,19.7 12.1,21 11,20.1 10.7,21.5 
+	10.4,20.1 9.3,21 10,19.7 8.6,19.6 9.9,19.1 8.9,18.1 10.2,18.5 10,17.1 "/>
+<polygon class="st0 h" points="29.7,18.3 30.4,17.1 30.2,18.5 31.5,18.1 30.5,19.1 31.8,19.6 30.4,19.7 31.1,21 30,20.1 29.7,21.5 
+	29.4,20.1 28.3,21 29,19.7 27.6,19.6 28.8,19.1 27.8,18.1 29.1,18.5 29,17.1 "/>
+<rect x="20" y="13" transform="matrix(1.000095e-11 -1 1 1.000095e-11 0.9996 39.4962)" class="st0" width="0.5" height="12.5"/>
+<polygon class="st0 i" points="10.5,25.9 11.2,24.7 11.1,26.1 12.4,25.7 11.4,26.7 12.6,27.2 11.3,27.3 11.9,28.6 10.8,27.7 
+	10.5,29.1 10.2,27.7 9.1,28.6 9.8,27.3 8.4,27.2 9.7,26.7 8.7,25.7 10,26.1 9.8,24.7 "/>
+<polygon class="st0 j" points="29.5,25.9 30.2,24.7 30,26.1 31.3,25.7 30.3,26.7 31.6,27.2 30.2,27.3 30.9,28.6 29.8,27.7 29.5,29.1 
+	29.2,27.7 28.1,28.6 28.7,27.3 27.4,27.2 28.6,26.7 27.6,25.7 28.9,26.1 28.8,24.7 "/>
+<rect x="19.8" y="20.6" transform="matrix(1.000095e-11 -1 1 1.000095e-11 -6.8041 46.8858)" class="st0" width="0.5" height="12.5"/>
+</svg>

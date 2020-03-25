@@ -9,7 +9,7 @@
 }
 
 .scill {
-    width: 75%;
+    width: 80%;
     &__name{
         font-size: larger;
         font-family: 'Black Ops One', cursive;
@@ -28,26 +28,23 @@
             display: inline-block;
             padding: 5px 0 5px 10px;
             border-radius: inherit;
-            animation: load 2s 0s;
+            animation: load 3s 0s;
         }
-        &.elementary::before{
+        &--elementary::before{
             width: calc(20% - 10px);
         }
-        &.basic::before{
+        &--basic::before{
             width: calc(40% - 10px);
         }
-        &.intermediate::before{
+        &--intermediate::before{
             width: calc(60% - 10px);
         }
-        &.advanced::before{
+        &--advanced::before{
             width: calc(80% - 10px);
         }
-        &.expert::before{
+        &--expert::before{
             width: calc(100% - 10px);
         }
-    }
-    &__result{
-        text-decoration: none;
     }
 }
   
