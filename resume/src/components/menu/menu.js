@@ -32,7 +32,8 @@ export default class Menu extends Component {
                         <MenuButton 
                             name="about" 
                             url="https://github.com/AlexLysikov" 
-                            icon={about} />
+                            icon={about} 
+                            onChangeItem={this.props.onR} />
                     </li>
                     <li className="menu__item">
                         <MenuButton 

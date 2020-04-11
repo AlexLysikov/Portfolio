@@ -6,7 +6,7 @@ export default function MenuButton(props) {
     return (
         <div 
             className="menu-button" 
-            // onclick={ location.href = props.url } 
+            onclick={ this.props.onChangeItem } 
             >
             <div className="menu-button__img">
                 <img className="menu-button__img-front" src={props.icon} alt="" />

@@ -16,13 +16,14 @@ export default class App extends Component {
     },
   };
 
-  onRender(Item, stateStatus) {
-    if (stateStatus) return <Item/>;
-  }
+  onRender(Item) {
+    for (let elStatus in this.state.rederedPage) {
+      if (elStatus) return <Item/>};
+  };
 
   render() {
 
-    const { renderedPage, menuStatus } = this.state;
+    const { renderedPage } = this.state;
 
     return (
         <div className="App">
@@ -31,7 +32,8 @@ export default class App extends Component {
             <Menu />
           </header>
           <main className="main">
-            <Home />
+            <onRender 
+              onRender={this.onRender()} />
           </main>
         </div>
       );

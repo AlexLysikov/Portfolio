@@ -29,23 +29,14 @@
         max-width: 800px;
         color: #a4a5a6;
         font-size: calc(10px + 1.5vmin);
-        // @media screen and (min-width: 1920px) {
-        //     font-size: 2em;
-        // }
-        // @media screen and (max-width: 1919px) {
-        //     font-size: 1.5em;
-        // }
-        // @media screen and (max-width: 767px) {
-        //     font-size: 1.2em;
-        // }
-        // @media screen and (max-width: 320px) {
-        //     font-size: 1em;
-        // }
         & span:first-child {
             display: block;
             line-height: 2em;
         }
         & h1 {
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-bottom: 2vh;
             color: #e0a80d;
         }
         & span:last-child {
